@@ -1,0 +1,228 @@
+body{
+	background-image:url("assets/bg.jpg");
+	background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+h2, p{
+	color: white;
+	text-align:center;
+	margin-top: 10px;
+}
+
+td{
+	background-color: white;
+}
+
+#location-form{
+	width: 100%;
+}
+
+.shot{
+    background-color: #d3d3d3;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+#results{
+	width:100%;
+	margin-bottom: 20px;
+	overflow-y:scroll; 
+	height:500px;
+}
+
+#table{
+	width:100%;
+	margin-bottom: 20px;
+	overflow-y:scroll; 
+	height:500px;
+	padding-top: 10px;
+	border-radius: 5px;
+	
+
+}
+
+.container{
+	margin-top: 50px;
+	width:75%;
+	height: auto;
+}
+
+th{
+	background-color: navy;
+	text-align: center;
+	color: white;
+	padding:3px;
+}
+
+td{
+	text-align: center;
+}
+
+
+.jumbotron{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.display{
+	border: 1px solid gray;
+	padding: 10px;
+	margin-bottom:10px;
+}
+
+#hideList{
+	border-radius: 5px;
+	width:75px;
+	float:right;
+	margin:5px;
+	font-size: 70%;
+}
+
+
+input{
+	width:100%;
+}
+
+#list{
+	background-color: white;
+	width: 50%;
+	height: 400px;
+	overflow-y: scroll;
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin:25px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.listhead{
+	font-size: 75%;
+}
+ h4{
+ 	width:75%;
+ 	float: left;
+ 	margin:0px;
+ }
+
+.carousel{
+	width: 100%;
+	text-align: center;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    table-layout: fixed;
+    width: 200px;
+    height: 40px;
+    
+}
+
+td {
+    padding-right: 10px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#mcTable {
+   width: 100%;
+}
+
+
+
+#map {
+height: 50%;
+width: 75%;
+position: fixed;
+left: 10%;
+right: 10%;
+margin-bottom: 20px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+#description {
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+}
+
+#infowindow-content .title {
+font-weight: bold;
+}
+
+#infowindow-content {
+display: none;
+}
+
+#map #infowindow-content {
+display: inline;
+}
+
+.pac-card {
+margin: 10px 10px 0 0;
+border-radius: 2px 0 0 2px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+outline: none;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+background-color: #fff;
+font-family: Roboto;
+}
+
+#pac-container {
+padding-bottom: 12px;
+margin-right: 12px;
+}
+
+.pac-controls {
+display: inline-block;
+padding: 5px 11px;
+}
+
+.pac-controls label {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 300;
+}
+
+#pac-input {
+background-color: #fff;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+margin-left: 12px;
+padding: 0 11px 0 13px;
+text-overflow: ellipsis;
+width: 400px;
+}
+
+#pac-input:focus {
+border-color: #4d90fe;
+}
+
+#title {
+color: #fff;
+background-color: #4d90fe;
+font-size: 25px;
+font-weight: 500;
+padding: 6px 12px;
+}
+
+#target {
+width: 345px;
+}
+
